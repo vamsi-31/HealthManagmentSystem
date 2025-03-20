@@ -1,0 +1,125 @@
+/* src/styles/Footer.css */
+.footer {
+    background-color: #0080ff;
+    color: white;
+    padding: 0;
+    margin-top: auto;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .footer-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #34495e;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #041521;
+    position: relative;
+  }
+  
+  .footer-section h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 40px;
+    height: 2px;
+    background-color: #3498db;
+  }
+  
+  .footer-section p {
+    margin-bottom: 0.8rem;
+    color: #bdc3c7;
+    line-height: 1.6;
+  }
+  
+  .copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-links a, 
+  .footer-section a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: inline-block;
+  }
+  
+  .footer-links a:hover,
+  .footer-section a:hover {
+    color: #3498db;
+    transform: translateX(5px);
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  .footer-bottom {
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 992px) {
+    .footer-main {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      padding: 1.5rem 1rem;
+    }
+    
+    .footer-main {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .footer-section {
+      text-align: center;
+    }
+    
+    .footer-section h3::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    
+    .footer-links li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .footer-links a:hover {
+      transform: translateX(0) translateY(-2px);
+    }
+  }
