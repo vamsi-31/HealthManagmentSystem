@@ -21,12 +21,12 @@ const PatientDashboard = () => {
   });
   const [notification, setNotification] = useState({ show: false, message: '', type: '' });
   const [profileData, setProfileData] = useState({
-    name: currentUser?.name || 'John Smith',
-    email: 'john.smith@example.com',
-    contactNumber: '555-123-4567',
-    age: '45',
+    name: currentUser?.name || 'Darsan Kumar',
+    email: 'darsan@example.com',
+    contactNumber: '801234557',
+    age: '22',
     gender: 'Male',
-    address: '123 Main St, Anytown, USA'
+    address: '21/6/7 Madhapur Hyderabad Telengana'
   });
 
   // Filter appointments based on search term

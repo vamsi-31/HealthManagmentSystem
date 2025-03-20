@@ -1,96 +1,141 @@
 // src/utils/dummyData.js
 
-// Generate 10 patients
+// Generate 15 patients
 export const patients = [
     {
       id: 'p1',
-      name: 'John Smith',
-      email: 'john.smith@example.com',
-      contactNumber: '555-123-4567',
+      name: 'Darshan Patel',
+      email: 'darshan.patel@example.com',
+      contactNumber: '9876543210',
       age: 45,
       gender: 'Male',
-      address: '123 Main St, Anytown, USA'
+      address: '123 Gandhi Rd, Mumbai, Maharashtra'
     },
     {
       id: 'p2',
-      name: 'Sarah Johnson',
-      email: 'sarah.j@example.com',
-      contactNumber: '555-234-5678',
+      name: 'Priya Sharma',
+      email: 'priya.sharma@example.com',
+      contactNumber: '8765432109',
       age: 32,
       gender: 'Female',
-      address: '456 Oak Ave, Somewhere, USA'
+      address: '456 Nehru St, Delhi, Delhi'
     },
     {
       id: 'p3',
-      name: 'Michael Brown',
-      email: 'mbrown@example.com',
-      contactNumber: '555-345-6789',
+      name: 'Amit Verma',
+      email: 'amit.verma@example.com',
+      contactNumber: '7654321098',
       age: 58,
       gender: 'Male',
-      address: '789 Pine St, Nowhere, USA'
+      address: '789 Tagore Ave, Kolkata, West Bengal'
     },
     {
       id: 'p4',
-      name: 'Emily Davis',
-      email: 'emily.d@example.com',
-      contactNumber: '555-456-7890',
+      name: 'Sneha Reddy',
+      email: 'sneha.reddy@example.com',
+      contactNumber: '6543210987',
       age: 27,
       gender: 'Female',
-      address: '101 Maple Dr, Anywhere, USA'
+      address: '101 MG Rd, Chennai, Tamil Nadu'
     },
     {
       id: 'p5',
-      name: 'Robert Wilson',
-      email: 'rwilson@example.com',
-      contactNumber: '555-567-8901',
+      name: 'Rajesh Kumar',
+      email: 'rajesh.kumar@example.com',
+      contactNumber: '5432109876',
       age: 62,
       gender: 'Male',
-      address: '202 Cedar Ln, Everywhere, USA'
+      address: '202 Brigade Rd, Bangalore, Karnataka'
     },
     {
       id: 'p6',
-      name: 'Jennifer Taylor',
-      email: 'jtaylor@example.com',
-      contactNumber: '555-678-9012',
+      name: 'Deepika Singh',
+      email: 'deepika.singh@example.com',
+      contactNumber: '9988776655',
       age: 41,
       gender: 'Female',
-      address: '303 Birch Rd, Someplace, USA'
+      address: '303 Park St, Kolkata, West Bengal'
     },
     {
       id: 'p7',
-      name: 'David Martinez',
-      email: 'dmartinez@example.com',
-      contactNumber: '555-789-0123',
+      name: 'Suresh Menon',
+      email: 'suresh.menon@example.com',
+      contactNumber: '8877665544',
       age: 36,
       gender: 'Male',
-      address: '404 Elm St, Othertown, USA'
+      address: '404 Church St, Bangalore, Karnataka'
     },
     {
       id: 'p8',
-      name: 'Lisa Anderson',
-      email: 'landerson@example.com',
-      contactNumber: '555-890-1234',
+      name: 'Anjali Nair',
+      email: 'anjali.nair@example.com',
+      contactNumber: '7766554433',
       age: 29,
       gender: 'Female',
-      address: '505 Walnut Ave, Thisplace, USA'
+      address: '505 Linking Rd, Mumbai, Maharashtra'
     },
     {
       id: 'p9',
-      name: 'James Thomas',
-      email: 'jthomas@example.com',
-      contactNumber: '555-901-2345',
+      name: 'Vijay Sharma',
+      email: 'vijay.sharma@example.com',
+      contactNumber: '6655443322',
       age: 53,
       gender: 'Male',
-      address: '606 Spruce Blvd, Thatplace, USA'
+      address: '606 Anna Salai, Chennai, Tamil Nadu'
     },
     {
       id: 'p10',
-      name: 'Patricia White',
-      email: 'pwhite@example.com',
-      contactNumber: '555-012-3456',
+      name: 'Anita Joshi',
+      email: 'anita.joshi@example.com',
+      contactNumber: '5544332211',
       age: 47,
       gender: 'Female',
-      address: '707 Aspen Ct, Lastplace, USA'
+      address: '707 Sector 17, Chandigarh, Chandigarh'
+    },
+     {
+      id: 'p11',
+      name: 'Rahul Gandhi',
+      email: 'rahul.gandhi@example.com',
+      contactNumber: '9876500011',
+      age: 38,
+      gender: 'Male',
+      address: '10 Janpath, New Delhi, Delhi'
+    },
+    {
+      id: 'p12',
+      name: 'Kavita Iyer',
+      email: 'kavita.iyer@example.com',
+      contactNumber: '8765499922',
+      age: 25,
+      gender: 'Female',
+      address: '22, L.B. Road, Adyar, Chennai, Tamil Nadu'
+    },
+    {
+      id: 'p13',
+      name: 'Manish Gupta',
+      email: 'manish.gupta@example.com',
+      contactNumber: '7654388833',
+      age: 68,
+      gender: 'Male',
+      address: 'MG Road, Bangalore, Karnataka'
+    },
+    {
+      id: 'p14',
+      name: 'Sheetal Kapoor',
+      email: 'sheetal.kapoor@example.com',
+      contactNumber: '6543277744',
+      age: 30,
+      gender: 'Female',
+      address: 'Linking Road, Bandra, Mumbai, Maharashtra'
+    },
+    {
+      id: 'p15',
+      name: 'Vikram Singh',
+      email: 'vikram.singh@example.com',
+      contactNumber: '5432166655',
+      age: 50,
+      gender: 'Male',
+      address: 'Park Street, Kolkata, West Bengal'
     }
   ];
   
@@ -98,84 +143,93 @@ export const patients = [
   export const doctors = [
     {
       id: 'd1',
-      name: 'Dr. Elizabeth Green',
-      email: 'dr.green@example.com',
-      contactNumber: '555-111-2222',
+      name: 'Dr. Priya Sharma',
+      email: 'dr.sharma@example.com',
+      contactNumber: '9811223344',
       specialty: 'Cardiology',
       experience: '15 years'
     },
     {
       id: 'd2',
-      name: 'Dr. Richard Lee',
-      email: 'dr.lee@example.com',
-      contactNumber: '555-222-3333',
+      name: 'Dr. Amit Patel',
+      email: 'dr.patel@example.com',
+      contactNumber: '9922334455',
       specialty: 'Neurology',
       experience: '12 years'
     },
     {
       id: 'd3',
-      name: 'Dr. Maria Rodriguez',
-      email: 'dr.rodriguez@example.com',
-      contactNumber: '555-333-4444',
+      name: 'Dr. Sunita Reddy',
+      email: 'dr.reddy@example.com',
+      contactNumber: '9033445566',
       specialty: 'Pediatrics',
       experience: '10 years'
     },
     {
       id: 'd4',
-      name: 'Dr. William Chen',
-      email: 'dr.chen@example.com',
-      contactNumber: '555-444-5555',
+      name: 'Dr. Rajesh Kumar',
+      email: 'dr.kumar@example.com',
+      contactNumber: '9144556677',
       specialty: 'Orthopedics',
       experience: '18 years'
     },
     {
       id: 'd5',
-      name: 'Dr. Susan Kim',
-      email: 'dr.kim@example.com',
-      contactNumber: '555-555-6666',
+      name: 'Dr. Lakshmi Iyer',
+      email: 'dr.iyer@example.com',
+      contactNumber: '9255667788',
       specialty: 'Dermatology',
       experience: '8 years'
     },
     {
       id: 'd6',
-      name: 'Dr. Thomas Jackson',
-      email: 'dr.jackson@example.com',
-      contactNumber: '555-666-7777',
+      name: 'Dr. Sanjay Verma',
+      email: 'dr.verma@example.com',
+      contactNumber: '9366778899',
       specialty: 'Ophthalmology',
       experience: '14 years'
     },
     {
       id: 'd7',
-      name: 'Dr. Amanda Patel',
-      email: 'dr.patel@example.com',
-      contactNumber: '555-777-8888',
+      name: 'Dr. Anjali Nair',
+      email: 'dr.nair@example.com',
+      contactNumber: '9477889900',
       specialty: 'Gynecology',
       experience: '11 years'
     },
     {
       id: 'd8',
-      name: 'Dr. Kevin Nguyen',
-      email: 'dr.nguyen@example.com',
-      contactNumber: '555-888-9999',
+      name: 'Dr. Rohan Singh',
+      email: 'dr.singh@example.com',
+      contactNumber: '9588990011',
       specialty: 'Psychiatry',
       experience: '9 years'
     },
     {
       id: 'd9',
-      name: 'Dr. Rachel Cohen',
-      email: 'dr.cohen@example.com',
-      contactNumber: '555-999-0000',
+      name: 'Dr. Deepa Joshi',
+      email: 'dr.joshi@example.com',
+      contactNumber: '9699001122',
       specialty: 'Endocrinology',
       experience: '13 years'
     },
     {
       id: 'd10',
-      name: 'Dr. Daniel Garcia',
-      email: 'dr.garcia@example.com',
-      contactNumber: '555-000-1111',
+      name: 'Dr. Karthik Menon',
+      email: 'dr.menon@example.com',
+      contactNumber: '9700112233',
       specialty: 'Urology',
       experience: '16 years'
-    }
+    },
+    {
+        id: 'P1001',
+        name: 'Darsan',
+        email: 'darshan.patel@example.com',
+        contactNumber: '9876543210',
+        age: 22,
+        gender: 'Male',
+        address: '123 madhapur Rd, Hyderabad, Telegana'
+      }
   ];
   
   // Generate appointments
@@ -184,9 +238,9 @@ export const patients = [
       id: 'a1',
       patientId: 'p1',
       doctorId: 'd3',
-      patientName: 'John Smith',
-      doctorName: 'Dr. Maria Rodriguez',
-      date: '2023-11-15',
+      patientName: 'Darshan Patel',
+      doctorName: 'Dr. Sunita Reddy',
+      date: '2025-3-21',
       time: '09:00 AM',
       status: 'confirmed',
       notes: 'Regular checkup'
@@ -195,9 +249,9 @@ export const patients = [
       id: 'a2',
       patientId: 'p2',
       doctorId: 'd1',
-      patientName: 'Sarah Johnson',
-      doctorName: 'Dr. Elizabeth Green',
-      date: '2023-11-16',
+      patientName: 'Priya Sharma',
+      doctorName: 'Dr. Priya Sharma',
+      date: '2025-3-19',
       time: '10:30 AM',
       status: 'completed',
       notes: 'Follow-up appointment'
@@ -206,9 +260,9 @@ export const patients = [
       id: 'a3',
       patientId: 'p3',
       doctorId: 'd2',
-      patientName: 'Michael Brown',
-      doctorName: 'Dr. Richard Lee',
-      date: '2023-11-17',
+      patientName: 'Amit Verma',
+      doctorName: 'Dr. Amit Patel',
+      date: '2025-3-21',
       time: '02:00 PM',
       status: 'requested',
       notes: 'New patient consultation'
@@ -217,19 +271,19 @@ export const patients = [
       id: 'a4',
       patientId: 'p4',
       doctorId: 'd5',
-      patientName: 'Emily Davis',
-      doctorName: 'Dr. Susan Kim',
-      date: '2023-11-18',
+      patientName: 'Sneha Reddy',
+      doctorName: 'Dr. Lakshmi Iyer',
+      date: '2025-3-19',
       time: '11:15 AM',
-      status: 'confirmed',
+      status: 'completed',
       notes: 'Skin condition examination'
     },
     {
       id: 'a5',
       patientId: 'p5',
       doctorId: 'd4',
-      patientName: 'Robert Wilson',
-      doctorName: 'Dr. William Chen',
+      patientName: 'Rajesh Kumar',
+      doctorName: 'Dr. Rajesh Kumar',
       date: '2023-11-20',
       time: '03:30 PM',
       status: 'cancelled',
@@ -239,8 +293,8 @@ export const patients = [
       id: 'a6',
       patientId: 'p6',
       doctorId: 'd7',
-      patientName: 'Jennifer Taylor',
-      doctorName: 'Dr. Amanda Patel',
+      patientName: 'Deepika Singh',
+      doctorName: 'Dr. Anjali Nair',
       date: '2023-11-21',
       time: '09:45 AM',
       status: 'confirmed',
@@ -250,8 +304,8 @@ export const patients = [
       id: 'a7',
       patientId: 'p7',
       doctorId: 'd8',
-      patientName: 'David Martinez',
-      doctorName: 'Dr. Kevin Nguyen',
+      patientName: 'Suresh Menon',
+      doctorName: 'Dr. Rohan Singh',
       date: '2023-11-22',
       time: '01:00 PM',
       status: 'requested',
@@ -261,8 +315,8 @@ export const patients = [
       id: 'a8',
       patientId: 'p8',
       doctorId: 'd6',
-      patientName: 'Lisa Anderson',
-      doctorName: 'Dr. Thomas Jackson',
+      patientName: 'Anjali Nair',
+      doctorName: 'Dr. Sanjay Verma',
       date: '2023-11-23',
       time: '10:00 AM',
       status: 'confirmed',
@@ -272,8 +326,8 @@ export const patients = [
       id: 'a9',
       patientId: 'p9',
       doctorId: 'd9',
-      patientName: 'James Thomas',
-      doctorName: 'Dr. Rachel Cohen',
+      patientName: 'Vijay Sharma',
+      doctorName: 'Dr. Deepa Joshi',
       date: '2023-11-24',
       time: '02:30 PM',
       status: 'confirmed',
@@ -283,8 +337,8 @@ export const patients = [
       id: 'a10',
       patientId: 'p10',
       doctorId: 'd10',
-      patientName: 'Patricia White',
-      doctorName: 'Dr. Daniel Garcia',
+      patientName: 'Anita Joshi',
+      doctorName: 'Dr. Karthik Menon',
       date: '2023-11-25',
       time: '11:45 AM',
       status: 'requested',
@@ -294,22 +348,77 @@ export const patients = [
         id: 'a11',
         patientId: 'p1',
         doctorId: 'd5',
-        patientName: 'John Smith',
-        doctorName: 'Dr. Susan Kim',
-        date: '2023-11-27',
+        patientName: 'Darshan Patel',
+        doctorName: 'Dr. Lakshmi Iyer',
+        date: '2025-3-19',
         time: '10:15 AM',
-        status: 'confirmed',
+        status: 'completed',
         notes: 'Skin rash follow-up'
       },
       {
         id: 'a12',
         patientId: 'p2',
         doctorId: 'd4',
-        patientName: 'Sarah Johnson',
-        doctorName: 'Dr. William Chen',
+        patientName: 'Priya Sharma',
+        doctorName: 'Dr. Rajesh Kumar',
         date: '2023-11-28',
         time: '01:30 PM',
         status: 'confirmed',
         notes: 'Knee pain assessment'
-      }
+      },
+       {
+        id: 'a13',
+        patientId: 'p11',
+        doctorId: 'd1',
+        patientName: 'Rahul Gandhi',
+        doctorName: 'Dr. Priya Sharma',
+        date: '2023-12-01',
+        time: '14:00 PM',
+        status: 'confirmed',
+        notes: 'Cardiac Stress Test'
+      },
+      {
+        id: 'a14',
+        patientId: 'p12',
+        doctorId: 'd2',
+        patientName: 'Kavita Iyer',
+        doctorName: 'Dr. Amit Patel',
+        date: '2023-12-05',
+        time: '16:30 PM',
+        status: 'completed',
+        notes: 'Migraine Management'
+      },
+       {
+        id: 'a15',
+        patientId: 'p13',
+        doctorId: 'd3',
+        patientName: 'Manish Gupta',
+        doctorName: 'Dr. Sunita Reddy',
+        date: '2023-12-10',
+        time: '09:30 AM',
+        status: 'confirmed',
+        notes: 'Vaccination'
+      },
+       {
+        id: 'a16',
+        patientId: 'p14',
+        doctorId: 'd4',
+        patientName: 'Sheetal Kapoor',
+        doctorName: 'Dr. Rajesh Kumar',
+        date: '2023-12-12',
+        time: '15:00 PM',
+        status: 'confirmed',
+        notes: 'Physiotherapy session'
+      },
+       {
+        id: 'a17',
+        patientId: 'p15',
+        doctorId: 'd5',
+        patientName: 'Vikram Singh',
+        doctorName: 'Dr. Lakshmi Iyer',
+        date: '2023-12-15',
+        time: '11:00 AM',
+        status: 'completed',
+        notes: 'Treatment for Acne'
+      },
     ];
